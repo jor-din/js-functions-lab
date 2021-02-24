@@ -9,10 +9,12 @@ function maxOfTwoNumbers(x, y) {
   } else {
     return y;
   }
-  
-  // or more "elegantly" using the fantastic ternary expression!
-  // return  x >= y ? x : y;
 }
+
+// or more "elegantly" using the fantastic ternary expression:
+// function maxOfTwoNumbers(x, y) {
+//   return  x >= y ? x : y;
+// }
 
 console.log("Exercise 1 Result:\n", maxOfTwoNumbers(3, 9));
 
