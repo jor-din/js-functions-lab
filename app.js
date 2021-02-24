@@ -32,19 +32,20 @@ Exercise 3:
 
 
 
-console.log(`Exercise 3 Result:
-  E: ${isCharAVowel("E")}
-  m: ${isCharAVowel("m")}
-  o: ${isCharAVowel("o")}
-  t: ${isCharAVowel("t")}
-  i: ${isCharAVowel("i")}
-  v: ${isCharAVowel("v")}
-  e: ${isCharAVowel("e")}
-  T: ${isCharAVowel("T")}
-  u: ${isCharAVowel("u")}
-  n: ${isCharAVowel("n")}
-  a: ${isCharAVowel("a")}
-`)
+console.log(
+`Exercise 3 Result:
+ E: ${isCharAVowel("E")}
+ m: ${isCharAVowel("m")}
+ o: ${isCharAVowel("o")}
+ t: ${isCharAVowel("t")}
+ i: ${isCharAVowel("i")}
+ v: ${isCharAVowel("v")}
+ e: ${isCharAVowel("e")}
+ T: ${isCharAVowel("T")}
+ u: ${isCharAVowel("u")}
+ n: ${isCharAVowel("n")}
+ a: ${isCharAVowel("a")}`
+)
 
 /* 
 Exercise 4: 
@@ -71,13 +72,14 @@ Exercise 6:
 
 
 
-console.log(`Exercise 6 Result: 
-  ${numArgs("Hello.", "I", "would", "like", "one", "taco", "plz.")}
-  ${numArgs("Sir, you may not only order one taco here.")}
-  ${numArgs("Fine.", "What else do you have?", "I would like my taco.")}
-  ${numArgs("Nothing.", ":)")}
-  ${numArgs("Noooooo!", "Foiled again!", "One day I will eat a taco!")}
-`)
+console.log(
+`Exercise 6 Result: 
+ ${numArgs("Hello.", "I", "would", "like", "one", "taco", "plz.")}
+ ${numArgs("Sir, you may not only order one taco here.")}
+ ${numArgs("Fine.", "What else do you have?", "I would like my taco.")}
+ ${numArgs("Nothing.", ":)")}
+ ${numArgs("Noooooo!", "Foiled again!", "One day I will eat a taco!")}`
+)
 
 /*
 Exercise 7:
