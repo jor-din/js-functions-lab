@@ -32,8 +32,7 @@ Exercise 3:
 
 
 
-console.log(`
-Exercise 3 Result:
+console.log(`Exercise 3 Result:
   E: ${isCharAVowel("E")}
   m: ${isCharAVowel("m")}
   o: ${isCharAVowel("o")}
@@ -72,8 +71,7 @@ Exercise 6:
 
 
 
-console.log(`
-Exercise 6 Result: 
+console.log(`Exercise 6 Result: 
   ${numArgs("Hello.", "I", "would", "like", "one", "taco", "plz.")}
   ${numArgs("Sir, you may not only order one taco here.")}
   ${numArgs("Fine.", "What else do you have?", "I would like my taco.")}
