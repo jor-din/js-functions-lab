@@ -39,10 +39,10 @@ Exercise 3:
   - Define a function, as a function declaration, `isCharAVowel` that takes a character as an argument and returns true if it is a vowel, false otherwise.
 */
 
-function isCharAVowel(char){
-  if (char === 'a' || 'e' || 'i'|| 'o' |'u'|) {
-    return true
-  }
+function isCharAVowel(letter){
+  const vowel = ['a','e','i','o','u']
+  return vowel.includes(letter.toLowerCase())
+}
 
 console.log(
 `Exercise 3 Result:
@@ -63,7 +63,6 @@ console.log(
 Exercise 4: 
   - Define a function, as a function expression, `sumArray` that takes an array of numbers and returns the sum of those numbers. For example, `sumArray([2, 4, 5]);` would return `11`.
 */
-
 
 
 console.log("Exercise 4 Result:\n", sumArray([2, 5, 15, 20]))
