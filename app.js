@@ -25,7 +25,7 @@ Exercise 2:
 function maxOfThree(x,y,z){
   if (x >= y && x >= z) {
     return x;
-  } else if(y >= x && x >= z){
+  } else if (y >= x && x >= z){
     return y;
   }else{
     return z;
@@ -39,7 +39,10 @@ Exercise 3:
   - Define a function, as a function declaration, `isCharAVowel` that takes a character as an argument and returns true if it is a vowel, false otherwise.
 */
 
-
+function isCharAVowel(char){
+  if (char === 'a' || 'e' || 'i'|| 'o' |'u'|) {
+    return true
+  }
 
 console.log(
 `Exercise 3 Result:
