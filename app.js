@@ -22,8 +22,15 @@ console.log("Exercise 1 Result:\n", maxOfTwoNumbers(3, 9));
 Exercise 2:
   - Define a function as a function expression, `maxOfThree`, that takes three numbers as arguments and returns the largest of them. Again, the Math.max method is not allowed.
 */
-
-
+function maxOfThree(x,y,z){
+  if (x >= y && x >= z) {
+    return x;
+  } else if(y >= x && x >= z){
+    return y;
+  }else{
+    return z;
+  }
+}
 
 console.log("Exercise 2 Result:\n", maxOfThree(3, 9, 16))
 
