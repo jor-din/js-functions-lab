@@ -126,13 +126,13 @@ Exercise 8:
 */
 
 let longestStringInArray = function(words) {
-  let longestWord = words[0];
-
-  for (let i = 0; i < words.length; i++) {
-    if (words[i].length > longestWord.length) {
-      longestWord = words[i]
+  let longestWord = 0;
+  words.forEach((word) => {
+    if(word.length > longestWord) {
+      longestWord = word.length
     }
-  }
+    
+  })
   return longestWord
 }
 
