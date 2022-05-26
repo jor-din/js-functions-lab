@@ -96,16 +96,19 @@ Exercise 6:
   - Define a function, as a function expression, `numArgs` that returns the number of arguments passed to the function when called.
 */
 
+let numArgs = function(...args) {
+  return args.length
+}
+  
 
-
-// console.log(
-// `Exercise 6 Result: 
-//  ${numArgs("Hello.", "I", "would", "like", "one", "taco", "plz.")}
-//  ${numArgs("Sir, you may not only order one taco here.")}
-//  ${numArgs("Fine.", "What else do you have?", "I would like my taco.")}
-//  ${numArgs("Nothing.", ":)")}
-//  ${numArgs("Noooooo!", "Foiled again!", "One day I will eat a taco!")}`
-// )
+console.log(
+`Exercise 6 Result: 
+ ${numArgs("Hello.", "I", "would", "like", "one", "taco", "plz.")}
+ ${numArgs("Sir, you may not only order one taco here.")}
+ ${numArgs("Fine.", "What else do you have?", "I would like my taco.")}
+ ${numArgs("Nothing.", ":)")}
+ ${numArgs("Noooooo!", "Foiled again!", "One day I will eat a taco!")}`
+)
 
 /*
 Exercise 7:
