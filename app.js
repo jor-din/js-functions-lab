@@ -64,6 +64,14 @@ Exercise 4:
   - Define a function, as a function expression, `sumArray` that takes an array of numbers and returns the sum of those numbers. For example, `sumArray([2, 4, 5]);` would return `11`.
 */
 
+let sumArray= function(array) {
+  let sum = 0;
+
+  array.forEach(value => {
+    sum += value;
+  })
+  return sum
+}
 
 console.log("Exercise 4 Result:\n", sumArray([2, 5, 15, 20]))
 
@@ -72,9 +80,6 @@ Exercise 5:
   - Define a function, as a function declaration, `multiplyArray` that takes an array of numbers and returns the product of those numbers. For example, `multiplyArray([2, 4, 5]);` would return `40`.
 */
 
-
-
-console.log("Exercise 5 Result:\n", multiplyArray([2, 6, 12]))
 
 /*
 Exercise 6:
