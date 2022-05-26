@@ -96,20 +96,16 @@ Exercise 6:
   - Define a function, as a function expression, `numArgs` that returns the number of arguments passed to the function when called.
 */
 
-let numArgs = function(numbers) {
-
-}
 
 
-
-console.log(
-`Exercise 6 Result: 
- ${numArgs("Hello.", "I", "would", "like", "one", "taco", "plz.")}
- ${numArgs("Sir, you may not only order one taco here.")}
- ${numArgs("Fine.", "What else do you have?", "I would like my taco.")}
- ${numArgs("Nothing.", ":)")}
- ${numArgs("Noooooo!", "Foiled again!", "One day I will eat a taco!")}`
-)
+// console.log(
+// `Exercise 6 Result: 
+//  ${numArgs("Hello.", "I", "would", "like", "one", "taco", "plz.")}
+//  ${numArgs("Sir, you may not only order one taco here.")}
+//  ${numArgs("Fine.", "What else do you have?", "I would like my taco.")}
+//  ${numArgs("Nothing.", ":)")}
+//  ${numArgs("Noooooo!", "Foiled again!", "One day I will eat a taco!")}`
+// )
 
 /*
 Exercise 7:
@@ -119,8 +115,6 @@ function reverseString(string) {
   return string.split('').reverse().join('')
 }
 
-
-
 console.log("Exercise 7 Result:\n", reverseString("!stratpoP taeh ton oD"))
 
 /* 
@@ -129,18 +123,19 @@ Exercise 8:
 */
 
 
-
-console.log(
-  "Exercise 8 Result:\n",
-  longestStringInArray(["Please", "do", "not", "pet", "the", "taco", "cat"])
-)
+// console.log(
+//   "Exercise 8 Result:\n",
+//   longestStringInArray(["Please", "do", "not", "pet", "the", "taco", "cat"])
+// )
 
 /* 
 Exercise 9: 
   - Define a function, as a function declaration, `stringsLongerThan` that takes an array of strings and a number as arguments; and returns an array of the strings that are longer than the number passed in. For example, `stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3);` would return `["hello", "morning"]`.
 */
 
-
+function stringsLongerThan(str, num) {
+  return str.filter(word => word.length > num)
+}
 
 console.log(
   "Exercise 9 Result:\n",
